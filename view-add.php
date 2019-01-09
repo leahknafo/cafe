@@ -1,6 +1,6 @@
 <?php
-require_once './coffee-bl.php';
-require_once './category-bl.php';
+require_once './bl-coffee.php';
+require_once './bl-category.php';
 $bl = new BusinessLogicCoffee;
 $cbl = new BusinessLogicCategory;
 $path='images/';
@@ -28,7 +28,7 @@ $arrayOfCategory = $cbl->get();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>add flight</title>
+    <title>Cafe</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
         
@@ -41,9 +41,9 @@ $arrayOfCategory = $cbl->get();
                             <a class="navbar-brand" href="#">coffee</a>
                           </div>
                           <ul class="nav navbar-nav">
-                            <li><a href="coffee-add.php">add product</a></li>
-                            <li><a href="coffee-get-all-products.php">get-all-products.php</a></li>
-                            <li><a href="report-view.php">get reports</a></li>
+                            <li><a href="view-add.php">add product</a></li>
+                            <li><a href="view-get-all-products.php">get-all-products.php</a></li>
+                            <li><a href="view-report.php">get reports</a></li>
                           </ul>
                         </div>
                       </nav>

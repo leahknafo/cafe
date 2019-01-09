@@ -1,7 +1,7 @@
 <?php 
 require_once './model.php';
-require_once 'category-bl.php';
-require_once 'coffee-bl.php';
+require_once 'bl-category.php';
+require_once 'bl-coffee.php';
     class CategoryModel implements IModel{
         private $category_name;
         private $category_id;

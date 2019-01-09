@@ -1,6 +1,6 @@
 <?php 
 require_once './model.php';
-require_once 'coffee-bl.php';
+require_once 'bl-coffee.php';
     class CoffeeModel implements IModel{
         private $product_id;
         private $product_name;

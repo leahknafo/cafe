@@ -1,6 +1,6 @@
 <?php
     require_once 'bl.php';
-    require_once './category-model.php';
+    require_once './model-category.php';
     class BusinessLogicCategory extends BusinessLogic{
         public function get()
         {

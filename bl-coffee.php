@@ -1,6 +1,6 @@
 <?php
     require_once 'bl.php';
-    require_once './coffee-model.php';
+    require_once './model-coffee.php';
     class BusinessLogicCoffee extends BusinessLogic{
         public function get()
         {
